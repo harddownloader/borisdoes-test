@@ -8,6 +8,7 @@
 		"@material-ui/icons": "^4.11.2",
 		"axios": "^0.21.1",
 		"clsx": "^1.1.1",
+		"core-js": "^3.15.2",
 		"node-sass": "^5.0.0",
 		"normalize.css": "^8.0.1",
 		"postcss-import": "^14.0.0",
@@ -25,7 +26,6 @@
 		"@babel/core": "^7.13.8",
 		"@babel/plugin-proposal-class-properties": "^7.13.0",
 		"@babel/plugin-transform-runtime": "^7.13.9",
-		"@babel/polyfill": "^7.12.1",
 		"@babel/preset-env": "^7.13.9",
 		"@babel/preset-react": "^7.12.13",
 		"@svgr/webpack": "^5.5.0",
@@ -92,6 +92,6 @@
 	"author": "harddownloader",
 	"license": "ISC",
 	"resolutions": {
-    "styled-components": "^5"
-  }
+		"styled-components": "^5"
+	}
 }

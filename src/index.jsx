@@ -1,3 +1,7 @@
+// babel
+import 'core-js';
+import 'regenerator-runtime/runtime';
+// react
 import React from 'react'
 import { render } from 'react-dom'
 // redux
