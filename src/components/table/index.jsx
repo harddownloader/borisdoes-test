@@ -77,20 +77,20 @@ function SimpleTable(props) {
 					</TableRow>
 				</TableHead>
 				<TableBody>
-					{notes.map(n => {
+					{notes.map(note => {
 						return (
-							<TableRow key={n.id}>
+							<TableRow key={note.id}>
 								<TableCell
 									component='th'
 									scope='row'
 									className={classes.TableCell}>
-									{n.time}
+									{note.time}
 								</TableCell>
 								<TableCell numeric='true' className={classes.tableCell}>
-									{n.title}
+									{note.title}
 								</TableCell>
 								<TableCell numeric='true' className={classes.tableCell}>
-									{n.domain}
+									{note.domain}
 								</TableCell>
 							</TableRow>
 						)
