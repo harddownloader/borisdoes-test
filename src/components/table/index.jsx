@@ -84,7 +84,7 @@ function SimpleTable(props) {
 									component='th'
 									scope='row'
 									className={classes.TableCell}>
-									{note.time}
+									{note.time_ago}
 								</TableCell>
 								<TableCell numeric='true' className={classes.tableCell}>
 									{note.title}

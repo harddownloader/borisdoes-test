@@ -53,3 +53,5 @@ npm-debug.log
 
 .env
 */*/__snapshots__
+
+note.txt
